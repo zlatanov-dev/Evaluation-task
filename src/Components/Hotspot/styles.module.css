@@ -1,0 +1,28 @@
+
+.secondaryContainer {
+  display: flex;
+  flex-wrap: wrap;
+  height: 30vh;
+  overflow: auto;
+  margin-bottom: 20px;
+}
+
+.secondary {
+  flex: 0 0 25%; 
+  height: 100%; 
+  margin-right: 10px;
+  box-sizing: border-box; 
+}
+
+
+.secondary {
+  flex: 0 0 calc(25% - 10px);
+  height: 30vh;
+  margin-right: 10px;
+}
+
+.main {
+  flex: 0 0 calc(75% - 10px);
+  width: 1000px; 
+  height: 700px;
+}
